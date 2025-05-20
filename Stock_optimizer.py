@@ -33,7 +33,7 @@ min_units_per_product = st.sidebar.number_input("Ελάχιστη ποσότητ
 min_units_all_products = st.sidebar.number_input("Ελάχιστη ποσότητα για ΟΛΑ τα προϊόντα", min_value=0, value=0, step=1)
 
 # --- Τίτλος ---
-st.title("🧠 Lidl SmartStock Optimizer")
+st.title("🧠 SmartStock Optimizer")
 st.markdown("""
 **Βρες τη βέλτιστη παραγγελία ανά προϊόν** ώστε:
 - Να αξιοποιήσεις σωστά το διαθέσιμο budget
