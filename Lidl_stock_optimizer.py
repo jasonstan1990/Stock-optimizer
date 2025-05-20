@@ -7,7 +7,7 @@ from pulp import LpProblem, LpMaximize, LpVariable, lpSum, LpStatus
 df = pd.read_csv("mock_products.csv")
 
 # Sidebar logo
-st.sidebar.image("lidl_logo.jpg", width=120)
+st.sidebar.image("logo.png", width=120)
 
 # --- Εκτίμηση Ανάγκης Budget (μόνο πληροφοριακά) ---
 if "Cost_per_unit (€)" in df.columns and "Weekly_demand (units)" in df.columns:
