@@ -1,4 +1,4 @@
-# 🧠 Lidl Stock Optimizer
+# 🧠 Stock Optimizer
 
 Έξυπνο εργαλείο Streamlit για βελτιστοποίηση παραγγελιών προϊόντων με βάση:
 - διαθέσιμο budget
